@@ -26,6 +26,7 @@ function createMarkup(arr) {
 </li>
     `).join("")
 }
+container.style.listStyle = "none";
 
 console.log(galleryItems);
 
